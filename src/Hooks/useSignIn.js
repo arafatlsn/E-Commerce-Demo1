@@ -1,11 +1,19 @@
 import auth from "../Firebase/FireBase.init";
-import { useCreateUserWithEmailAndPassword, useSignInWithFacebook, useSignInWithGoogle } from 'react-firebase-hooks/auth';
+import { useCreateUserWithEmailAndPassword, useSignInWithEmailAndPassword, useSignInWithFacebook, useSignInWithGoogle } from 'react-firebase-hooks/auth';
 
 const useSignIn = () => {
-  // google login 
+  // google signin 
   const [signInWithGoogle, userGoogle, loadingGoogle, errorGoogle] = useSignInWithGoogle(auth);
-  // facebook login
+  // facebook signin
   const [signInWithFacebook, userFacebook, loadingFacebook, errorFacebook] = useSignInWithFacebook(auth);
+  // signin with email password 
+  const [
+    signInWithEmailAndPassword,
+    userSignInWithPass,
+    loadingSignInWithPass,
+    errorSignInWithPass,
+  ] = useSignInWithEmailAndPassword(auth);
+
   // create account with email password 
   const [
     createUserWithEmailAndPassword,
@@ -14,7 +22,7 @@ const useSignIn = () => {
     errorWithEmaiPass,
   ] = useCreateUserWithEmailAndPassword(auth);
 
-  return { signInWithGoogle, userGoogle, signInWithFacebook, userFacebook, createUserWithEmailAndPassword }
+  return { signInWithGoogle, userGoogle, signInWithFacebook, userFacebook, createUserWithEmailAndPassword, signInWithEmailAndPassword, userSignInWithPass }
 }
 
 

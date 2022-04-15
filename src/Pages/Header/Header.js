@@ -1,18 +1,20 @@
 import React from 'react';
 import { Container, Form, FormControl, Nav, Navbar, NavDropdown } from 'react-bootstrap';
+import { useAuthState } from 'react-firebase-hooks/auth';
 import { BsTelephoneForward, BsBagPlus, BsSearch } from 'react-icons/bs'
 import { FaUserPlus } from 'react-icons/fa'
 import { VscHeart } from 'react-icons/vsc'
 import { Link } from 'react-router-dom';
+import auth from '../../Firebase/FireBase.init';
 import useCart from '../../Hooks/useCart';
+import { signOut } from 'firebase/auth';
 import './Header.css'
 
 
 const Header = () => {
-  const { cart } = useCart()
-  const cartLength = () => {
-    console.log(cart)
-  }
+
+  const [user, loading, error] = useAuthState(auth);
+  console.log(user?.photoURL)
   return (
     <div style={{position: 'sticky', top: '0', zIndex: '100'}}>
       <Navbar bg="light" expand="lg">
@@ -52,7 +54,7 @@ const Header = () => {
             <div className='d-flex nav-icons-side'>
               <Link to={'/signin'} className='my-0 mx-2 fs-3'><FaUserPlus/></Link>
               <p className='my-0 mx-2 fs-3'><VscHeart/></p>
-              <p onClick={cartLength} className='my-0 mx-2 fs-3'><BsBagPlus/><sup>{ cart.length }</sup></p>
+              <p className='my-0 mx-2 fs-3'><BsBagPlus/><sup></sup></p>
             </div>
             <Nav
               className="me-auto my-2 my-lg-0"
@@ -63,6 +65,10 @@ const Header = () => {
               <Nav.Link className='fw-bold fs-6' href="#action2">Checkout</Nav.Link>
             </Nav>
             </div>
+            <div className='profile-img-div d-flex align-items-center'>
+        <p onClick={() => signOut(auth)} className='my-0 me-2 fw-bold ' style={{color: 'rgb(1, 136, 204)'}}>Sign-out</p>
+        <img src= {user ? user?.photoURL : "https://www.business2community.com/wp-content/uploads/2017/08/blank-profile-picture-973460_640.png" } alt="" style={{width: '35px', height: '35px', borderRadius: '50%'}} />
+      </div>
           </Navbar.Collapse>
         </Container>
       </Navbar>
