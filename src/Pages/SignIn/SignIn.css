@@ -1,0 +1,13 @@
+.forms-parent-container{
+  height: 70vh;
+  display: flex;
+  align-items: center;
+}
+
+.forms-container{
+  width: 30vw;
+  height: 45vh;
+  margin: auto;
+  padding: 1rem .8rem;
+  background-color: #F5F5F5;
+}

@@ -1,0 +1,68 @@
+.card-parent-container{
+  width: 205px;
+  height: 322px;
+  overflow: hidden;
+
+}
+
+.card-img-div{
+  width: 205px;
+  height: 205px;
+  position: relative;
+}
+
+.card-img{
+  width: 205px;
+  height: 205px;
+  object-fit: cover;
+}
+
+.add-to-cart-div{
+  opacity: 0;
+  transition: opacity .2s ease-in-out;
+  background-color: rgba(1, 136, 204, .7);
+  color: white;
+}
+
+.add-to-cart-div:hover{
+  background: rgb(1, 136, 204);
+  color: white;
+  font-weight: 600;
+}
+
+.card-parent-container:hover .add-to-cart-div{
+  opacity: 1;
+}
+
+.card-view-details{
+  opacity: 0;
+  transition: opacity .2s ease-in-out;
+}
+
+.card-parent-container:hover .card-view-details{
+  opacity: 1;
+}
+
+@media screen and (max-width: 480px) {
+  .card-parent-container{
+    width: 140px;
+    height: 270px;
+  }
+
+  .card-img-div{
+    width: 140px;
+    height: 140px;
+    overflow: hidden;
+  }
+  
+  .card-img{
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+  }
+
+  .add-to-cart-div{
+    opacity: 1;
+  }
+
+}

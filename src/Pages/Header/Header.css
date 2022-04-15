@@ -1,0 +1,22 @@
+.input-field-div{
+  width: 567px;
+  position: relative;
+}
+
+.nav-icons-side{
+  position: static;
+}
+
+
+@media screen and (max-width: 480px) {
+  .input-field-div{
+    width: 95vw;
+    position: relative;
+  }
+
+  .nav-icons-side{
+    position: absolute;
+    right: 70px;
+    top: 5px;
+  }
+}

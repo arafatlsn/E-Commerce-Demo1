@@ -1,0 +1,254 @@
+[
+  {
+    "id": "624046863fc482db50da6671",
+    "name": "Umidigi A5 Pro",
+    "image": "https://static-01.daraz.com.bd/p/670b77cfc2b8b3e6e2ee8d3612f8cfa4.jpg",
+    "price": 11849,
+    "category": "phone"
+  },
+  {
+    "id": "62404686dc3222479c186ef9",
+    "name": "OUKITEL C21",
+    "image": "https://static-01.daraz.com.bd/p/mdc/5b7ee1c574b1f71f32b1eea6924a7913.jpg",
+    "price": 10499,
+    "category": "phone"
+  },
+  {
+    "id": "624046860122565a5c4313da",
+    "name": "Motorola Moto G30",
+    "image": "https://static-01.daraz.com.bd/p/c06dbae652ddc499593648313873cd72.jpg",
+    "price": 19999,
+    "category": "phone"
+  },
+  {
+    "id": "624046863b4946c4d2815133",
+    "name": "Motorola G9 Play ",
+    "image": "https://static-01.daraz.com.bd/p/d002c4ba80810140511d3d34e38b05a2.jpg",
+    "price": 13999,
+    "category": "phone"
+  },
+  {
+    "id": "62404686556cce055f42bd1b",
+    "name": "Nokia 6.2 Smartphone",
+    "image": "https://static-01.daraz.com.bd/p/ab8ba068a060e11f907177ab31231d55.jpg",
+    "price": 20940,
+    "category": "phone"
+  },
+  {
+    "id": "6240468645312bd3bdd3bccb",
+    "name": "OnePlus 8T Aquamarine Green",
+    "image": "https://static-01.daraz.com.bd/p/feec39a35bf5b127eaf91a909c6f5149.jpg",
+    "price": 54990,
+    "category": "phone"
+  },
+  {
+    "id": "62404686c262b874f099923b",
+    "name": "Realme 2 Pro",
+    "image": "https://static-01.daraz.com.bd/p/118bada3b87d0c19b5f34f82f0b6c16a.jpg",
+    "price": 21412,
+    "category": "phone"
+  },
+  {
+    "id": "62404686d5bcc517823d9ce3",
+    "name": "F7 - Smartphone",
+    "image": "https://static-01.daraz.com.bd/p/8777c4b0a9464341ede012eb96553019.jpg",
+    "price": 35493,
+    "category": "phone"
+  },
+  {
+    "id": "62404686dbf91ff07999a747",
+    "name": "Tecno Camon 16 Pro",
+    "image": "https://static-01.daraz.com.bd/p/mdc/0089fbf564ac59811dbde2eb2773e8c7.jpg",
+    "price": 18604,
+    "category": "phone"
+  },
+  {
+    "id": "6240468696394ca940bd0e7b",
+    "name": "Samsung Galaxy A32",
+    "image": "https://static-01.daraz.com.bd/p/mdc/20c8a952a1fe70993c09656ac02ee783.jpg",
+    "price": 25999,
+    "category": "phone"
+  },
+  {
+    "id": "624046861399ec8541ac8895",
+    "name": "Motorola Edge 20 Fusion",
+    "image": "https://static-01.daraz.com.bd/p/1b8d2ab962316cbd8e792e9fe55b4fd9.jpg",
+    "price": 35898,
+    "category": "phone"
+  },
+  {
+    "id": "6240468619db08f429751b58",
+    "name": "Chuwi HeroBook Pro",
+    "image": "https://static-01.daraz.com.bd/p/7e89decafa388a5f31cb548396cd2b26.jpg",
+    "price": 29250,
+    "category": "laptop"
+  },
+  {
+    "id": "624046865c39150599ec05dd",
+    "name": "Acer Extension 15 Ex215",
+    "image": "https://static-01.daraz.com.bd/p/ef8a419c14ea11b6e2c836cc2c52596b.jpg",
+    "price": 140001,
+    "category": "laptop"
+  },
+  {
+    "id": "6240468632db5546c2f8e1b9",
+    "name": "MSI Laptop Modern 15 A1",
+    "image": "https://static-01.daraz.com.bd/p/mdc/17b6ce1e5f40a295612caf9e2d98abd4.jpg",
+    "price": 72500,
+    "category": "laptop"
+  },
+  {
+    "id": "6240468675af77723a819548",
+    "name": "HP 240 G7 10th Gen Core i3",
+    "image": "https://static-01.daraz.com.bd/p/mdc/792fcfcec4c6ae4c49709287dac9bb13.jpg",
+    "price": 80001,
+    "category": "laptop"
+  },
+  {
+    "id": "62404686451f72253817f838",
+    "name": "Hp 240 G7 10Th Gen",
+    "image": "https://static-01.daraz.com.bd/p/mdc/864abe5e8dc151e12c2e79b8bcc56d2b.jpg",
+    "price": 150001,
+    "category": "laptop"
+  },
+  {
+    "id": "62404686857f874bb24bd150",
+    "name": "Asus VivoBook X515EA",
+    "image": "https://static-01.daraz.com.bd/p/mdc/17b6ce1e5f40a295612caf9e2d98abd4.jpg",
+    "price": 51000,
+    "category": "laptop"
+  },
+  {
+    "id": "62404686c42e29cc9b9efd62",
+    "name": "Walton TAMARIND ZX3701",
+    "image": "https://static-01.daraz.com.bd/p/79a2de8187b3e164407f852a2ffd11cf.jpg",
+    "price": 31999,
+    "category": "laptop"
+  },
+  {
+    "id": "62404686238918a06d9e7fb8",
+    "name": "Asus VivoBook 15 K513EA",
+    "image": "https://static-01.daraz.com.bd/p/5df4b9bbf3cf9745479b4c3f44f7e381.jpg",
+    "price": 72000,
+    "category": "laptop"
+  },
+  {
+    "id": "62404686693674b3caeca1b8",
+    "name": "Lenovo IdeaPad 3 AMD",
+    "image": "https://static-01.daraz.com.bd/p/f34855a530b10506d2954b4ee91d01f0.jpg",
+    "price": 63000,
+    "category": "laptop"
+  },
+  {
+    "id": "62404686613e87962eb61e80",
+    "name": "MSI Modern 14 B11SB",
+    "image": "https://static-01.daraz.com.bd/p/2c8b9a6179595a520b10765e62b0966e.png",
+    "price": 90700,
+    "category": "laptop"
+  },
+  {
+    "id": "62404686c3a85151de7fdb04",
+    "name": "HP 15s-fq2643TU",
+    "image": "https://static-01.daraz.com.bd/p/cfe1af04c01593a2cf473ce55a12ba84.jpg",
+    "price": 65000,
+    "category": "laptop"
+  },
+  {
+    "id": "62404686d8f05886a028e3a7",
+    "name": "Dell Inspiron 15 3501",
+    "image": "https://static-01.daraz.com.bd/p/74ff6b42865e765d1dd16dd1f0733426.png",
+    "price": 47000,
+    "category": "laptop"
+  },
+  {
+    "id": "62404686774ab5c6a00794bd",
+    "name": "HP 15s-du3786TU",
+    "image": "https://static-01.daraz.com.bd/p/b602d2760e13bd3cffa58c0762a2b5ee.jpg",
+    "price": 50400,
+    "category": "laptop"
+  },
+  {
+    "id": "62404686c1643abca17fb777",
+    "name": "32\" SONY PLUS SMART",
+    "image": "https://static-01.daraz.com.bd/p/bb91b147b82c089388779e6f1401f987.jpg",
+    "price": 11815,
+    "category": "smart tv"
+  },
+  {
+    "id": "6240468605d367d900fbb97f",
+    "name": "Mi 43\" 4K Tv P1 Series",
+    "image": "https://static-01.daraz.com.bd/p/3271d634dd06410f916dab3e77e47efc.jpg",
+    "price": 41900,
+    "category": "smart tv"
+  },
+  {
+    "id": "624046866b9aff879fe0481d",
+    "name": "KuGou TV 32 inch",
+    "image": "https://static-01.daraz.com.bd/p/ccb2b712489a531eed5e58dc9ad812be.jpg",
+    "price": 12600,
+    "category": "smart tv"
+  },
+  {
+    "id": "62404686af86130f3f0e6792",
+    "name": "SONY PLUS 40\" ANDROID SMART",
+    "image": "https://static-01.daraz.com.bd/p/mdc/50b355902fb87fa24daf4eba206671b9.jpg",
+    "price": 22500,
+    "category": "smart tv"
+  },
+  {
+    "id": "624046869c3e35a17bb3f297",
+    "name": "32\" SONY PLUS HD LED TV",
+    "image": "https://static-01.daraz.com.bd/p/b8b9cd29f3300f66da3bccb0dd91c788.jpg",
+    "price": 9990,
+    "category": "smart tv"
+  },
+  {
+    "id": "6240468681a7202148d4c962",
+    "name": "Walton W32F130 (813 mm) 32\"",
+    "image": "https://static-01.daraz.com.bd/p/aa0ccaa6192c656e086b9e9cf5f267e8.jpg",
+    "price": 17861,
+    "category": "smart tv"
+  },
+  {
+    "id": "624046861270a5fce4609920",
+    "name": "Samsung 32 Inc 32T4700",
+    "image": "https://static-01.daraz.com.bd/p/1f996905aeed35b50a27d9892028c4ea.jpg",
+    "price": 30500,
+    "category": "smart tv"
+  },
+  {
+    "id": "6240468664e654050bb713bd",
+    "name": "Politron 24 Inch HD LED TV",
+    "image": "https://static-01.daraz.com.bd/p/d320cf5cfbdc94c0514f48ae38396841.jpg",
+    "price": 8600,
+    "category": "smart tv"
+  },
+  {
+    "id": "62404686ef452309673a39ee",
+    "name": "Walton LED Television W24D20",
+    "image": "https://static-01.daraz.com.bd/p/4aa5ba6b46227b4998214a1bf61a3c86.jpg",
+    "price": 15000,
+    "category": "smart tv"
+  },
+  {
+    "id": "6240468665b9cdefac7630ac",
+    "name": "MI Xiaomi 43 inch FULL HD",
+    "image": "https://static-01.daraz.com.bd/p/726c20b6184a88500d3a8f923f7a19d9.jpg",
+    "price": 36500,
+    "category": "smart tv"
+  },
+  {
+    "id": "62404686f2714c99c51b1e61",
+    "name": "Walton WD24HLR (610mm) TV",
+    "image": "https://static-01.daraz.com.bd/p/bb1291ded270dc24d83dfddf21d5598e.jpg",
+    "price": 15700,
+    "category": "smart tv"
+  },
+  {
+    "id": "624046862f590c6f8e9692e1",
+    "name": "MME TV 32 inch Frameless Ultra",
+    "image": "https://static-01.daraz.com.bd/p/da47b43381e7923cb610da857911948e.jpg",
+    "price": 12642,
+    "category": "smart tv"
+  }
+]

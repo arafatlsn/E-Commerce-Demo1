@@ -1,0 +1,23 @@
+.carousel-parent{
+  width: 932px;
+  height: 428px;
+}
+
+.carousel-img{
+  width: 932px;
+  height: 428px;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 480px) {
+  .carousel-parent{
+    width: 100vw;
+    height: 40vh;
+  }
+  
+  .carousel-img{
+    width: 100vw;
+    height: 40vh;
+    object-fit: cover;
+  }
+}
