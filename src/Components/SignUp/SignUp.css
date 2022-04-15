@@ -1,3 +1,28 @@
-.forms-container{
-  height: 55vh;
+.forms-parent-container-signup{
+  height: 75vh;
+  display: flex;
+  align-items: center;
+}
+
+.forms-container-signup{
+  width: 30vw;
+  height: 52vh;
+  margin: auto;
+  padding: 1rem .8rem;
+  background-color: #F5F5F5;
+
+}
+
+@media screen and (max-width: 480px) {
+  .forms-parent-container-signup{
+    height: 50vh;
+  }
+  .forms-container-signup{
+    width: 98vw;
+    height: 72vh;
+    margin: auto;
+    padding: 1rem .8rem;
+    background-color: #F5F5F5;
+  
+  }
 }

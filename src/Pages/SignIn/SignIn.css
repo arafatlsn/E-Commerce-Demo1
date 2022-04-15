@@ -11,3 +11,17 @@
   padding: 1rem .8rem;
   background-color: #F5F5F5;
 }
+
+@media screen and (max-width: 480px) {
+  .forms-parent-container{
+    height: 40vh;
+  }
+
+  .forms-container{
+    width: 98vw;
+    height: 62vh;
+    margin: auto;
+    padding: 1rem .8rem;
+    background-color: #F5F5F5;
+  }
+}

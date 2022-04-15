@@ -62,7 +62,7 @@ const Header = () => {
             >
               <Nav.Link className='fw-bold fs-6' as={Link} to={'/'}>Home</Nav.Link>
               <Nav.Link className='fw-bold fs-6' as={Link} to={'/products'}>Products</Nav.Link>
-              <Nav.Link className='fw-bold fs-6' href="#action2">Checkout</Nav.Link>
+              <Nav.Link as={Link} to = {'/checkout'} className='fw-bold fs-6' href="#action2">Checkout</Nav.Link>
             </Nav>
             </div>
             <div className='profile-img-div d-flex align-items-center'>

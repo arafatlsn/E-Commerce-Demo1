@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 import  { BsFacebook } from 'react-icons/bs'
 import { FcGoogle } from 'react-icons/fc'
 import './SignUp.css'
@@ -16,9 +16,13 @@ const SignUp = () => {
     e.preventDefault()
   }
 
+  const location = useLocation()
+  const navigate = useNavigate()
+  const from = location.state?.from?.pathname || '/'
+
   return (
-    <div className='forms-parent-container'>
-      <div className='forms-container rounded'>
+    <div className='forms-parent-container-signup'>
+      <div className='forms-container-signup rounded'>
         <h2 className='text-center fw-bold' style={{color: 'rgb(1, 136, 204)'}}>Sign-up</h2>
         <div>
           <form onSubmit={handleSignUp}>
@@ -30,7 +34,12 @@ const SignUp = () => {
           <input onBlur={(e) => setPassword(e.target.value)} className='w-100 px-3 py-2 fw-bold' type="password" name='password' />
           <label className='fw-bold fs-5 mt-2' htmlFor="confirmPassword">Confirm Password</label> <br />
           <input className='w-100 px-3 py-2 fw-bold' type="password" name='confirmPassword' />
-          <input onClick={() => createUserWithEmailAndPassword(email, password)} className='w-100 fw-bold py-1 fs-5 mt-5' value={'Sign-up'} type="submit" style={{background: 'rgb(1, 136, 204)', color: 'white', borderStyle: 'hidden'}} />
+          <input onClick={() => 
+            createUserWithEmailAndPassword(email, password)
+            .then(() => {
+              navigate(from , { replace: true });
+            })
+            } className='w-100 fw-bold py-1 fs-5 mt-5' value={'Sign-up'} type="submit" style={{background: 'rgb(1, 136, 204)', color: 'white', borderStyle: 'hidden'}} />
           </form>
         </div>
       </div>
