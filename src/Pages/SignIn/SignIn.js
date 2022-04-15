@@ -26,9 +26,9 @@ const SignIn = () => {
         <div>
           <form onSubmit={handleSingIn}>
           <label className='fw-bold fs-5' htmlFor="email">Email</label> <br />
-          <input onBlur={(e) => setEmail(e.target.value)} className='w-100 px-3 py-2 fw-bold' type="email" name='email' /> <br />
+          <input onBlur={(e) => setEmail(e.target.value)} className='w-100 px-3 py-2 fw-bold' type="email" name='email' required /> <br />
           <label className='fw-bold fs-5 mt-2' htmlFor="password">Password</label> <br />
-          <input onBlur={(e) => setPassword(e.target.value)} className='w-100 px-3 py-2 fw-bold' type="password" name='password' />
+          <input onBlur={(e) => setPassword(e.target.value)} className='w-100 px-3 py-2 fw-bold' type="password" name='password' required />
           <input onClick={() => 
             signInWithEmailAndPassword(email, password)
             .then(() => {

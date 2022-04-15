@@ -19,10 +19,9 @@
   }
   .forms-container-signup{
     width: 98vw;
-    height: 72vh;
+    height: 100vh;
     margin: auto;
     padding: 1rem .8rem;
     background-color: #F5F5F5;
-  
   }
 }

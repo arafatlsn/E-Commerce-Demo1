@@ -21,6 +21,10 @@
     position: relative;
   }
 
+  .input-field-div{
+    margin-top: 5px;
+  }
+
   .nav-icons-side{
     position: absolute;
     right: 70px;
